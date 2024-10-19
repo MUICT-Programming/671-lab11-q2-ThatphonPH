@@ -1,8 +1,8 @@
 def summation(lst1, lst2):
-    list1 = []
+    updated_list = []
     for i in range(len(lst1)):
-        list1.append(lst1[i] + lst2[i])
-    return list1
+        updated_list.append(lst1[i] + lst2[i])
+    return updated_list
 
 def find_min_max(lst):
     min_lst = min(lst)
